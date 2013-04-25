@@ -1,0 +1,112 @@
+/*----------------------------------
+
+	Estilo
+
+----------------------------------*/
+body{
+	color: #9B9146;
+	font-family: helvetica, Arial;
+	background: url('img/madeira-topo.jpg') repeat-x #F0EDDA;
+}
+#tudo{
+	width: 1100px;
+	margin: 0 auto;
+}
+.caixa{
+	border: 10px solid #FFF;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	box-sizing: border-box;
+}
+	.caixa-topo{
+		height: 450px;
+		margin-top: 30px;
+		padding: 20px 40px;
+		box-shadow: 0 45px 60px -50px #666;
+		background-image: -ms-linear-gradient(top, #F0EDDA, #F5F4E7);
+		background-image: -moz-linear-gradient(top, #F0EDDA, #F5F4E7);
+		background-image: -o-linear-gradient(top, #F0EDDA, #F5F4E7);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F0EDDA), color-stop(1, #F5F4E7));
+		background-image: -webkit-linear-gradient(top, #F0EDDA, #F5F4E7);
+		background-image: linear-gradient(to bottom, #F0EDDA, #F5F4E7);
+	}
+	.caixa-geral{
+		height: 500px;
+		width: 1000px;
+		margin: 30px auto;
+		padding: 40px;
+		background-color: #FBFAF5;
+	}
+
+footer{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.direita{
+	float: right;
+}
+.radius6{
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+
+img#logo{
+	margin: 0px 40px;
+}
+ul{
+	margin-top: 10px;
+}
+ul li{
+	display: inline-block;
+	padding: 8px 40px;
+	margin: 5px;
+	background-color: #9C9147;
+	box-shadow: 0 0 8px 1px #B4B2A8;
+}
+a li{
+	text-decoration: none;
+	color: #FFF;
+}
+
+aside{
+	text-align: center;
+	display: inline-block;
+}
+form#login{
+	margin-top: 50px;
+	margin-bottom:70px;
+	width: 250px;
+}
+form input{
+	color: #76747C;
+	border: 2px solid #B4B2A8;
+	height: 30px;
+}
+form input[type=text]{
+	width: 250px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+form input[type=submit]{
+	float: right;
+	width: 100px;
+	background: #B4B2A8;
+}
+
+.prato{
+	margin-top: 10px;
+	box-shadow: 0 0 8px 1px #B4B2A8;
+}
+
+.btn{
+	width: 250px;
+	height: 40px;
+	padding: 8px 40px;
+	margin: 5px;
+	color: #FFF;
+	background-color: #9C9147;
+	border: 0px;
+}
