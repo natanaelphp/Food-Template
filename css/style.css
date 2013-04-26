@@ -6,7 +6,7 @@
 body{
 	color: #9B9146;
 	font-family: helvetica, Arial;
-	background: url('img/madeira-topo.jpg') repeat-x #F0EDDA;
+	background: url('../img/madeira-topo.jpg') repeat-x #F0EDDA;
 }
 #tudo{
 	width: 1100px;
